@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BaseTesting">
+              <span class="suite-name border-passed">BaseTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BaseTesting">
+                    <span>D:\QA\workspace\EbayTest\src\test\resources\testsettings.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BaseTesting">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BaseTesting">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BaseTesting">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BaseTesting">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BaseTesting">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BaseTesting">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BaseTesting" class="hide-methods passed suite-BaseTesting"> (hide)</a> <!-- hide-methods passed suite-BaseTesting -->
+                      <a href="#" panel-name="suite-BaseTesting" class="show-methods passed suite-BaseTesting"> (show)</a> <!-- show-methods passed suite-BaseTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-BaseTesting">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BaseTesting" title="com.home.test.pages.HomePageTest" hash-for-method="testDeals">testDeals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BaseTesting" title="com.home.test.pages.HomePageTest" hash-for-method="testNotifications">testNotifications</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BaseTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BaseTesting" class="panel BaseTesting">
+          <div class="suite-BaseTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.home.test.pages.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeals">
+                  </a> <!-- testDeals -->
+                  <span class="method-name">testDeals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotifications">
+                  </a> <!-- testNotifications -->
+                  <span class="method-name">testNotifications</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BaseTesting-class-passed -->
+        </div> <!-- panel BaseTesting -->
+        <div panel-name="test-xml-BaseTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA\workspace\EbayTest\src\test\resources\testsettings.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;5&quot; name=&quot;BaseTesting&quot; data-provider-thread-count=&quot;2&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.home.utils.TestExecutionListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;HomePageTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.home.test.pages.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePageTests --&gt;
+&lt;/suite&gt; &lt;!-- BaseTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BaseTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BaseTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePageTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BaseTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BaseTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ebayAll</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeals</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testNotifications</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">home</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeals</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testNotifications</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BaseTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BaseTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BaseTesting');
+function tableData_BaseTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testDeals')
+data.setCell(0, 2, 'com.home.test.pages.HomePageTest')
+data.setCell(0, 3, 31600);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNotifications')
+data.setCell(1, 2, 'com.home.test.pages.HomePageTest')
+data.setCell(1, 3, 4544);
+window.suiteTableData['BaseTesting']= { tableData: data, tableDiv: 'times-div-BaseTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-BaseTesting">
+              </div> <!-- times-div-BaseTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BaseTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BaseTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDeals</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"class name","selector":"gh-ua"}
+Command duration or timeout: 10.95 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 6c19e349-9f49-4f08-beba-677c84beab0d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p></span>
+                <span class="reporter-method-output"><b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p></span>
+                <span class="reporter-method-output"><b>After clickON</b><p></span>
+                <span class="reporter-method-output"><b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p></span>
+                <span class="reporter-method-output"><b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p></span>
+                <span class="reporter-method-output"><b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p></span>
+                <span class="reporter-method-output"><b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p></span>
+                <span class="reporter-method-output"><b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p></span>
+                <span class="reporter-method-output"><b>After clickON</b><p></span>
+                <span class="reporter-method-output"><b>Was cliked on webelement with locator:</b>&nbspid("gh-p-1")/a[1]; Element html tag: a<p>Daily Deals<p></span>
+                <span class="reporter-method-output"><b>After clickON</b><p></span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output"><a href=D:\QA\workspace\EbayTest/target/screenshots/testDeals/testDeals_01_07_2014_08_11_31.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/testDeals/testDeals_01_07_2014_08_11_31.png" width="600" height="338" alt=""/><br/></p></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testNotifications</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><b>Was cliked on webelement with locator:</b>&nbspid("subs-close"); Element html tag: a<p>X<p></span>
+                <span class="reporter-method-output"><b>After clickON</b><p></span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output"><a href=D:\QA\workspace\EbayTest/target/screenshots/testNotifications/testNotifications_01_07_2014_08_11_53.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/testNotifications/testNotifications_01_07_2014_08_11_53.png" width="600" height="338" alt=""/><br/></p></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BaseTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BaseTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.home.test.pages.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">getWebDriver()</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">OpenPage</span>
+                <span class="method-start">9714 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testDeals</span>
+                <span class="method-start">14447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotifications</span>
+                <span class="method-start">60482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">ShutDown</span>
+                <span class="method-start">81993 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

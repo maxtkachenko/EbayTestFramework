@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EbayTest by groups]">
+  <test name="GRP-search(failed)">
+    <groups>
+      <run>
+        <include name="search"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.home.test.SearchPageTest">
+        <methods>
+          <include name="OpenPage"/>
+          <include name="ShutDown"/>
+          <include name="getWebDriver"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- com.home.test.SearchPageTest -->
+    </classes>
+  </test> <!-- GRP-search(failed) -->
+</suite> <!-- Failed suite [EbayTest by groups] -->

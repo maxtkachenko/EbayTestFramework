@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="5" name="Failed suite [BaseTesting]" data-provider-thread-count="2">
+  <parameter name="browser" value="ie"/>
+  <listeners>
+    <listener class-name="com.home.utils.TestExecutionListener"/>
+  </listeners>
+  <test name="HomePageTests(failed)">
+    <classes>
+      <class name="com.home.test.pages.HomePageTest">
+        <methods>
+          <include name="getWebDriver"/>
+          <include name="testNotifications"/>
+          <include name="ShutDown"/>
+          <include name="OpenPage"/>
+        </methods>
+      </class> <!-- com.home.test.pages.HomePageTest -->
+    </classes>
+  </test> <!-- HomePageTests(failed) -->
+</suite> <!-- Failed suite [BaseTesting] -->

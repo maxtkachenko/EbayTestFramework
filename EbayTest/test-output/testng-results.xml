@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"class name","selector":"gh-ua"}
+Command duration or timeout: 10.95 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 6c19e349-9f49-4f08-beba-677c84beab0d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-p-1")/a[1]; Element html tag: a<p>Daily Deals<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[<a href=D:\QA\workspace\EbayTest/target/screenshots/testDeals/testDeals_01_07_2014_08_11_31.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/testDeals/testDeals_01_07_2014_08_11_31.png" width="600" height="338" alt=""/><br/></p></a>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("subs-close"); Element html tag: a<p>X<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[<a href=D:\QA\workspace\EbayTest/target/screenshots/testNotifications/testNotifications_01_07_2014_08_11_53.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/testNotifications/testNotifications_01_07_2014_08_11_53.png" width="600" height="338" alt=""/><br/></p></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="BaseTesting" duration-ms="72201" started-at="2014-07-01T17:10:41Z" finished-at="2014-07-01T17:11:53Z">
+    <groups>
+      <group name="home">
+        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@5526edd1]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
+        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@5526edd1]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
+      </group> <!-- home -->
+      <group name="ebayAll">
+        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@5526edd1]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
+        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@5526edd1]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
+      </group> <!-- ebayAll -->
+    </groups>
+    <test name="HomePageTests" duration-ms="72201" started-at="2014-07-01T17:10:41Z" finished-at="2014-07-01T17:11:53Z">
+      <class name="com.home.test.pages.HomePageTest">
+        <test-method status="PASS" signature="getWebDriver(java.lang.String)[pri:0, instance:com.home.test.pages.HomePageTest@5526edd1]" name="getWebDriver" is-config="true" duration-ms="9708" started-at="2014-07-01T20:10:31Z" finished-at="2014-07-01T20:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebDriver -->
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.HomePageTest@5526edd1]" name="OpenPage" is-config="true" duration-ms="4726" started-at="2014-07-01T20:10:41Z" finished-at="2014-07-01T20:10:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@5526edd1]" name="testDeals" duration-ms="31600" started-at="2014-07-01T20:10:45Z" finished-at="2014-07-01T20:11:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"class name","selector":"gh-ua"}
+Command duration or timeout: 10.95 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 6c19e349-9f49-4f08-beba-677c84beab0d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-p-1")/a[1]; Element html tag: a<p>Daily Deals<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[<a href=D:\QA\workspace\EbayTest/target/screenshots/testDeals/testDeals_01_07_2014_08_11_31.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/testDeals/testDeals_01_07_2014_08_11_31.png" width="600" height="338" alt=""/><br/></p></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeals -->
+        <test-method status="PASS" signature="testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@5526edd1]" name="testNotifications" duration-ms="4544" started-at="2014-07-01T20:11:31Z" finished-at="2014-07-01T20:11:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("subs-close"); Element html tag: a<p>X<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[<a href=D:\QA\workspace\EbayTest/target/screenshots/testNotifications/testNotifications_01_07_2014_08_11_53.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/testNotifications/testNotifications_01_07_2014_08_11_53.png" width="600" height="338" alt=""/><br/></p></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNotifications -->
+        <test-method status="PASS" signature="ShutDown()[pri:0, instance:com.home.test.pages.HomePageTest@5526edd1]" name="ShutDown" is-config="true" duration-ms="7511" started-at="2014-07-01T20:11:53Z" finished-at="2014-07-01T20:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDown -->
+      </class> <!-- com.home.test.pages.HomePageTest -->
+    </test> <!-- HomePageTests -->
+  </suite> <!-- BaseTesting -->
+</testng-results>

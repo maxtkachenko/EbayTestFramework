@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>TestNG:  LoginPageTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LoginPageTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 01 19:20:42 EEST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>204 seconds (204062 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.home.test.pages.LoginTest.LogOut()'><b>LogOut</b><br>Test class: com.home.test.pages.LoginTest<br/>
+<a href="#Output-1745010566" onClick='toggleBox("Output-1745010566", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1745010566" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1745010566">
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p><br/>
+<b>After clickON</b><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p><br/>
+<b>After clickON</b><p><br/>
+Test Status: Pass<br/>
+<a href=D:\QA\workspace\EbayTest/target/screenshots/LogOut/LogOut_01_07_2014_07_24_06.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/LogOut/LogOut_01_07_2014_07_24_06.png" width="600" height="338" alt=""/><br/></p></a><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.home.test.pages.LoginTest@751dc8af</td></tr>
+<tr>
+<td title='com.home.test.pages.LoginTest.testLogin()'><b>testLogin</b><br>Test class: com.home.test.pages.LoginTest<br/>
+<a href="#Output-1871055651" onClick='toggleBox("Output-1871055651", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1871055651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1871055651">
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p><br/>
+<b>After clickON</b><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p><br/>
+<b>After clickON</b><p><br/>
+<p><b>WebDriver Exception throwed:</b>&nbspUnable to find element with class name == gh-ua (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 3e2d52c3-e0de-4b8a-8479-db12ce46c790
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:19966/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]<p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p><br/>
+<b>After clickON</b><p><br/>
+Test Status: Pass<br/>
+<a href=D:\QA\workspace\EbayTest/target/screenshots/testLogin/testLogin_01_07_2014_07_23_53.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/testLogin/testLogin_01_07_2014_07_23_53.png" width="600" height="338" alt=""/><br/></p></a><br/>
+</div>
+</td>
+<td></td>
+<td>179</td>
+<td>com.home.test.pages.LoginTest@751dc8af</td></tr>
+</table><p>
+</body>
+</html>

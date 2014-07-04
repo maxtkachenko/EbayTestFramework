@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BaseTesting" verbose="5" data-provider-thread-count="2">
+<parameter name="browser" value=""/>	
+	<listeners>
+		<listener class-name="com.home.utils.TestExecutionListener"></listener>
+	</listeners>
+	
+	<!--<test name= "LoginPageTests">
+		<classes>
+		    <class name="com.home.test.pages.LoginTest"/> 
+		</classes>
+ 	</test>  -->
+ 	<test name="HomePageTests">
+ 		<classes>
+ 			<class name="com.home.test.pages.HomePageTest"/>
+ 		</classes>
+ 	 </test>
+ 	<!--<test name="SearchPageTests">
+ 		<classes>
+ 			<class name="com.home.test.pages.SearchPageTest"/>
+ 		</classes>
+ 	</test>  -->
+</suite>

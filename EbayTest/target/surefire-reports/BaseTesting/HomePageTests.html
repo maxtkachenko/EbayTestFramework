@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  HomePageTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>HomePageTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 01 20:15:57 EEST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>75 seconds (75751 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.home.test.pages.HomePageTest.testDeals()'><b>testDeals</b><br>Test class: com.home.test.pages.HomePageTest<br/>
+<a href="#Output-1931683015" onClick='toggleBox("Output-1931683015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1931683015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1931683015">
+<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"class name","selector":"gh-ua"}
+Command duration or timeout: 10.91 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 93e0a542-fa1d-423c-809f-8601de3e78e0
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p><br/>
+<b>After clickON</b><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p><br/>
+<b>After clickON</b><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-p-1")/a[1]; Element html tag: a<p>Daily Deals<p><br/>
+<b>After clickON</b><p><br/>
+Test Status: Pass<br/>
+<a href=D:\QA\workspace\EbayTest/target/screenshots/testDeals/testDeals_01_07_2014_08_16_50.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/testDeals/testDeals_01_07_2014_08_16_50.png" width="600" height="338" alt=""/><br/></p></a><br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.home.test.pages.HomePageTest@40800a9e</td></tr>
+<tr>
+<td title='com.home.test.pages.HomePageTest.testNotifications()'><b>testNotifications</b><br>Test class: com.home.test.pages.HomePageTest<br/>
+<a href="#Output-1511138295" onClick='toggleBox("Output-1511138295", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1511138295" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1511138295">
+<b>Was cliked on webelement with locator:</b>&nbspid("subs-close"); Element html tag: a<p>X<p><br/>
+<b>After clickON</b><p><br/>
+Test Status: Pass<br/>
+<a href=D:\QA\workspace\EbayTest/target/screenshots/testNotifications/testNotifications_01_07_2014_08_17_13.png target='_blank' ><p><br/><img src="file:///D:\QA\workspace\EbayTest/target/screenshots/testNotifications/testNotifications_01_07_2014_08_17_13.png" width="600" height="338" alt=""/><br/></p></a><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.home.test.pages.HomePageTest@40800a9e</td></tr>
+</table><p>
+</body>
+</html>
