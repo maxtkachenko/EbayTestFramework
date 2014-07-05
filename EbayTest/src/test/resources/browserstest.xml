@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Web Browsers"  thread-count="3">
+
+<suite-files>
+   		<!-- Test Suite for IE browser-->
+		<suite-file path="./browsers-suite/IE.xml" />
+		
+		<!-- Test Suite for Firefox Browser-->
+		<suite-file path="./browsers-suite/FirefoxTest.xml" />
+		
+		<!-- Test Suite for Chrome Browser-->
+		<!--<suite-file path="./browsers-suite/Chrome.xml" />-->
+		
+</suite-files>
+</suite> 

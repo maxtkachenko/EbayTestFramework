@@ -13,14 +13,14 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.TestListenerAdapter;
 
-import com.home.automationdriver.Driver;
+import com.home.automationdriver.DriverFactory;
 
 public class TestExecutionListener extends TestListenerAdapter {
 
 	private static final String SCREENSHOT_FOLDER = "target/screenshots/";
 	private static final String SCREENSHOT_FORMAT = ".png";
 	
-	private void printTestResults(ITestResult result) {
+	private void printTestResults(ITestResult result) {//report about the status of the method
 
 		if (result.getParameters().length != 0) {
 			String params = null;
@@ -43,7 +43,6 @@ public class TestExecutionListener extends TestListenerAdapter {
 		}
 		Reporter.log("Test Status: " + status, true);
 		takeScreenshot(result);
-		//TestStepReporter.reportln("Test Status after execution: ", status);
 	}
 
 	public void onTestSkipped(ITestResult arg0) {
@@ -58,7 +57,8 @@ public class TestExecutionListener extends TestListenerAdapter {
 		printTestResults(arg0);
 	}
 	WebDriver driver;
-	public void takeScreenshot(ITestResult result){
+	
+	public void takeScreenshot(ITestResult result){//creates screenshots of execution
 		String folder = SCREENSHOT_FOLDER + result.getName();
 		File dir = new File(folder);
 		if (!dir.exists()){
@@ -69,7 +69,7 @@ public class TestExecutionListener extends TestListenerAdapter {
 			//TODO get screenshot
 			Thread.sleep(3000);
 			if(driver == null){
-				driver = Driver.getDriver();
+				driver = DriverFactory.getDriver();
 			}
 			if(driver == null){
 				return;

@@ -1,4 +1,3 @@
 com\home\test\basetest\BasicTestCase.class
 com\home\test\pages\HomePageTest.class
-com\home\test\pages\LoginTest.class
 com\home\test\pages\SearchPageTest.class

@@ -11,7 +11,7 @@ import com.home.utils.ConfigProperties;
 
 public class HomePage extends Page {
 	
-	public HomePage(WebDriver driver){
+	public HomePage(WebDriver driver){//Home Page object
 		super(driver);
 	}
 	@FindBy(how = How.CLASS_NAME, using ="gh-ua")
@@ -47,8 +47,10 @@ public class HomePage extends Page {
 	@FindBy(how = How.ID, using ="subs-close")
 	public WebElement SubscribeCloseBtn;
 	
-	public boolean isLoggedOut(){
-		if(isElementPresent(linkSignIn)){
+	
+	
+	public boolean isLoggedOut(){//verify: user is logged out
+		if(isElementPresent(linkSignIn)){//Checks element by page 
 			return true;
 		}
 		else{
@@ -56,7 +58,7 @@ public class HomePage extends Page {
 		}
 	}
 	
-	public boolean isSubscribePopUp(){
+	public boolean isSubscribePopUp(){//verify: subscribe pop-up is open
 		if(isElementPresent(SubscribeCloseBtn)){
 			return true;
 		}
@@ -64,8 +66,7 @@ public class HomePage extends Page {
 			return false;
 		}
 	}
-	public boolean isHomePageLoggedIn(){
-		
+	public boolean isHomePageLoggedIn(){//verify: user is logged in
 		return isElementPresent(fieldUserProfileMenu);  
 	}
 	
@@ -73,21 +74,21 @@ public class HomePage extends Page {
 		return isElementPresent(DealsLogo);  
 	}
 	
-	public SearchPage doSearch(){
+	public SearchPage doSearch(){//return Search Page
 		return PageFactory.initElements(driver, SearchPage.class);
 	}
 	
-	public LoginPage SignIn(){
+	public LoginPage SignIn(){// open Login Page
 		linkSignIn.click();
 		return PageFactory.initElements(driver, LoginPage.class);
 	}
 	
-	public HomePage openDealsPage(){
+	public HomePage openDealsPage(){//open Deals Page
 		DailyDeals.click();
 		return PageFactory.initElements(driver, HomePage.class);
 	}
 	
-	public HomePage logout(){
+	public HomePage logout(){//user Log out
 		driver.findElement(By.id("gh-ug")).click();
 		linkSignOut = driver.findElement(By.linkText("Sign out"));
 		linkSignOut.click();
@@ -96,12 +97,12 @@ public class HomePage extends Page {
 	}
 	
 	@Override
-	public void open() {
+	public void open() {//open HomePage
 		driver.get(ConfigProperties.getProperty("base.url"));
 	}
 	
 	@Override
-	public boolean IsPageOpen() {
+	public boolean IsPageOpen() {//verify: page open
 		return isElementPresent(SearchButton);
 	}
 	

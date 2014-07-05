@@ -40,7 +40,7 @@ public class SearchPage extends Page {
 			return false;
 		}
 	}
-	public void searchProduct(String searchText){
+	public void searchProduct(String searchText){//type text in the search box
 			SearchBox.sendKeys(searchText);
 			SearchButton.click();
 		}

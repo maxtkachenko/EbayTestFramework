@@ -1,12 +1,11 @@
 com\home\pages\HomePage.class
-com\home\automationdriver\Driver$1.class
 com\home\utils\WebDriverListener.class
 com\home\utils\TestExecutionListener.class
+com\home\automationdriver\DriverFactory$1.class
 com\home\utils\TestStepReporter.class
 com\home\pages\Page.class
 com\home\pages\LoginPage.class
 com\home\utils\ConfigProperties.class
 com\home\automationdriver\Browsers.class
-com\home\automationdriver\Driver.class
 com\home\data\UserData.class
 com\home\pages\SearchPage.class

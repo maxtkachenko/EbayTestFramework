@@ -1,20 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="5" name="Failed suite [BaseTesting]" data-provider-thread-count="2">
-  <parameter name="browser" value="ie"/>
+  <parameter name="browser" value="chrome"/>
   <listeners>
     <listener class-name="com.home.utils.TestExecutionListener"/>
   </listeners>
   <test name="HomePageTests(failed)">
     <classes>
-      <class name="com.home.test.pages.HomePageTest">
+      <class name="com.home.test.pages.SearchPageTest">
         <methods>
           <include name="getWebDriver"/>
-          <include name="testNotifications"/>
           <include name="ShutDown"/>
+          <include name="OpenPage"/>
+        </methods>
+      </class> <!-- com.home.test.pages.SearchPageTest -->
+      <class name="com.home.test.pages.LoginPageTest">
+        <methods>
+          <include name="OpenPage"/>
+        </methods>
+      </class> <!-- com.home.test.pages.LoginPageTest -->
+      <class name="com.home.test.pages.HomePageTest">
+        <methods>
+          <include name="testDeals"/>
           <include name="OpenPage"/>
         </methods>
       </class> <!-- com.home.test.pages.HomePageTest -->
     </classes>
   </test> <!-- HomePageTests(failed) -->
+  <test name="SearchPageTests(failed)">
+    <classes>
+      <class name="com.home.test.pages.SearchPageTest">
+        <methods>
+          <include name="getWebDriver"/>
+          <include name="ShutDown"/>
+          <include name="OpenPage"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- com.home.test.pages.SearchPageTest -->
+      <class name="com.home.test.pages.LoginPageTest">
+        <methods>
+          <include name="OpenPage"/>
+        </methods>
+      </class> <!-- com.home.test.pages.LoginPageTest -->
+      <class name="com.home.test.pages.HomePageTest">
+        <methods>
+          <include name="OpenPage"/>
+        </methods>
+      </class> <!-- com.home.test.pages.HomePageTest -->
+    </classes>
+  </test> <!-- SearchPageTests(failed) -->
 </suite> <!-- Failed suite [BaseTesting] -->

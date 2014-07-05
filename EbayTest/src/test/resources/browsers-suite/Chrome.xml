@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing on Chrome"  verbose="5" data-provider-thread-count="2">
+<parameter name="browser" value="chrome"/>
+	<listeners>
+		<listener class-name="com.home.utils.TestExecutionListener"></listener>
+	</listeners>
+	<test name="tests on Google Chrome" preserve-order="true">
+	    <groups>
+	        <run>
+	           <include name="ebayAll" />
+	           <!-- <exclude name= "home"/>-->
+	        </run>
+	    </groups>
+	    <packages>
+		    <package name="com.home.test.pages.*"/>
+		</packages>
+	</test>
+</suite>

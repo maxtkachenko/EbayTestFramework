@@ -11,7 +11,7 @@ public abstract class Page {
 		this.driver = driver;
 	}
 
-	protected void type(WebElement webElement, String text){
+	protected void type(WebElement webElement, String text){//type text in text box
 		webElement.clear();
 		webElement.sendKeys(text);
 	}
@@ -20,7 +20,7 @@ public abstract class Page {
 	
 	public abstract boolean IsPageOpen();
 	
-	public boolean isElementPresent(WebElement element){
+	public boolean isElementPresent(WebElement element){//checks element on a Page
 		try{
 			element.isDisplayed();
 			return true;

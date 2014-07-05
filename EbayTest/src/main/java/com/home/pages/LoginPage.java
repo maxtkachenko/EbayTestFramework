@@ -27,11 +27,12 @@ public class LoginPage extends Page {
 	
 	@FindBy(how = How.ID, using = "sgnBt")
 	public WebElement buttonSignIn;
+	
 	@Override
 	public boolean IsPageOpen() {
 		return isElementPresent(filedUsername);
 	}
-	public HomePage loginAs (UserData user){
+	public HomePage loginAs (UserData user){//enter name and password 
 		type(filedUsername, user.name);
 		type(fieldPassword, user.password);
 		buttonSignIn.click();

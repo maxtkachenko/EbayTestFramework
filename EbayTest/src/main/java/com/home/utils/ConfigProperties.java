@@ -10,7 +10,7 @@ public class ConfigProperties {
 	
 	static {
 		PROPERTIES = new Properties();
-		URL props = ClassLoader.getSystemResource("config.properties");
+		URL props = ClassLoader.getSystemResource("config.properties");//Find a resource of the specified name from the search path used to load classes.
 		try {
 			PROPERTIES.load(props.openStream());
 		}catch (IOException e){

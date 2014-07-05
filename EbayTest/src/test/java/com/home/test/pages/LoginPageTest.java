@@ -8,7 +8,15 @@ import com.home.data.UserData;
 import com.home.test.basetest.BasicTestCase;
 import com.home.utils.ConfigProperties;
 
-public class LoginTest extends BasicTestCase{
+/**
+ * 
+ * @author Max Tkachenko.
+ * LoginPageTest is use to test Ebay.com.
+ * Method testLogin performs login with wrong login and password. After user did not login performs correct login and password.
+ * Method LogOut performs logout of users profile .
+ *
+ */
+public class LoginPageTest extends BasicTestCase{
 	
 @Test(groups = {"login", "ebayAll"},priority = 0 )
 public void testLogin() throws Exception {
@@ -25,10 +33,10 @@ public void testLogin() throws Exception {
 	}
 }
 
-@Test(groups = {"login", "ebayAll"},priority = 1)//enabled=false
+@Test(groups = {"login", "ebayAll"},priority = 1)
 public void LogOut() throws Exception{
 	if(homePage ==null){return;}
-		homePage.logout();
+		homePage = homePage.logout();
 		assertTrue(homePage.isLoggedOut());
 	}
 }

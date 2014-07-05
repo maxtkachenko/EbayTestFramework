@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing on Mozilla Firefox">
+<parameter name="browser" value="firefox"/>
+<listeners>
+		<listener class-name="com.home.utils.TestExecutionListener"></listener>
+	</listeners>
+	<test name="tests on Mozilla Firefox" preserve-order="true">
+	    <groups>
+	        <run>
+	            <include name="ebayAll" />
+	        </run>
+	    </groups>
+	    <packages>
+		    <package name="com.home.test.pages.*"/>
+		</packages>
+	</test>
+</suite>

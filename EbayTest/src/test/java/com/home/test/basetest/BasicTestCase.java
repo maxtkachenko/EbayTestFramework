@@ -3,12 +3,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
-import com.home.automationdriver.Driver;
+import com.home.automationdriver.DriverFactory;
 import com.home.data.UserData;
 import com.home.pages.HomePage;
 import com.home.pages.LoginPage;
@@ -28,15 +25,15 @@ public class BasicTestCase  {
 	@Parameters({"browser"})
 	protected WebDriver getWebDriver(String browser){//@Optional("firefox")
 		if(driver == null){
-			driver= Driver.getDriver(browser);//open browser
+			driver= DriverFactory.getDriver(browser);//open browser
 			driver.manage().timeouts().implicitlyWait(Long.parseLong(ConfigProperties.getProperty("limit.wait")), TimeUnit.SECONDS);//how many second wait object
 		}
 		return driver;
 	}
-	@BeforeTest(alwaysRun = true)
-	public void OpenPage() throws Exception {
+	@BeforeMethod(alwaysRun = true)
+	public void OpenPage() throws Exception {//open home page
 		if(driver == null){
-			driver = Driver.getDriver();
+			driver = DriverFactory.getDriver();
 		}
 		if(homePage==null){
 		homePage = PageFactory.initElements(driver,
@@ -44,8 +41,8 @@ public class BasicTestCase  {
 		homePage.open();
 		}
 	}
-	@AfterSuite( alwaysRun = true)//enabled = false,
+	@AfterSuite( alwaysRun = true)
 	public void ShutDown() throws Exception{
-		Driver.killDriverInstance();
+		DriverFactory.killDriverInstance();
 	}
 }

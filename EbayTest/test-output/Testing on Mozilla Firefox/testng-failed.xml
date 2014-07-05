@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing on Mozilla Firefox]">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.home.utils.TestExecutionListener"/>
+  </listeners>
+  <test name="tests on Mozilla Firefox(failed)">
+    <groups>
+      <run>
+        <include name="ebayAll"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.home.test.pages.HomePageTest">
+        <methods>
+          <include name="getWebDriver"/>
+          <include name="testNotifications"/>
+          <include name="testDeals"/>
+          <include name="ShutDown"/>
+          <include name="OpenPage"/>
+        </methods>
+      </class> <!-- com.home.test.pages.HomePageTest -->
+      <class name="com.home.test.pages.SearchPageTest">
+        <methods>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- com.home.test.pages.SearchPageTest -->
+      <class name="com.home.test.pages.LoginPageTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- com.home.test.pages.LoginPageTest -->
+    </classes>
+  </test> <!-- tests on Mozilla Firefox(failed) -->
+</suite> <!-- Failed suite [Testing on Mozilla Firefox] -->
