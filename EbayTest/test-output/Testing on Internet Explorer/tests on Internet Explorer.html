@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>TestNG:  tests on Internet Explorer</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>tests on Internet Explorer</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 05 12:56:24 EEST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>89 seconds (89841 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>ebayAll </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.home.test.pages.LoginPageTest.LogOut()'><b>LogOut</b><br>Test class: com.home.test.pages.LoginPageTest<br/>
+<a href="#Output-2108050098" onClick='toggleBox("Output-2108050098", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2108050098" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2108050098">
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p><br/>
+<b>After clickON</b><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p><br/>
+<b>After clickON</b><p><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.home.test.pages.LoginPageTest@6f84922c</td></tr>
+<tr>
+<td title='com.home.test.pages.HomePageTest.testDeals()'><b>testDeals</b><br>Test class: com.home.test.pages.HomePageTest<br/>
+<a href="#Output-807600957" onClick='toggleBox("Output-807600957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-807600957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-807600957">
+<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:03'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 90890aae7691ff640e4ab3f4a3399316
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7236_13097}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p><br/>
+<b>After clickON</b><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p><br/>
+<b>After clickON</b><p><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.home.test.pages.HomePageTest@7e7d611f</td></tr>
+<tr>
+<td title='com.home.test.pages.LoginPageTest.testLogin()'><b>testLogin</b><br>Test class: com.home.test.pages.LoginPageTest<br/>
+<a href="#Output-2059903931" onClick='toggleBox("Output-2059903931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2059903931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2059903931">
+<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:03'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 90890aae7691ff640e4ab3f4a3399316
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7236_13097}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.home.test.pages.LoginPageTest@6f84922c</td></tr>
+<tr>
+<td title='com.home.test.pages.HomePageTest.testNotifications()'><b>testNotifications</b><br>Test class: com.home.test.pages.HomePageTest<br/>
+<a href="#Output-242991609" onClick='toggleBox("Output-242991609", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-242991609" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-242991609">
+<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:03'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 90890aae7691ff640e4ab3f4a3399316
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7236_13097}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.home.test.pages.HomePageTest@7e7d611f</td></tr>
+<tr>
+<td title='com.home.test.pages.SearchPageTest.testSearch()'><b>testSearch</b><br>Test class: com.home.test.pages.SearchPageTest<br/>
+<a href="#Output-989888068" onClick='toggleBox("Output-989888068", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-989888068" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-989888068">
+<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:03'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 90890aae7691ff640e4ab3f4a3399316
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7236_13097}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p><br/>
+<b>After clickON</b><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p><br/>
+<b>After clickON</b><p><br/>
+<b>Change was performed on element with locator:</b>&nbspid("gh-ac"); Element html tag: input<p><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-btn"); Element html tag: input<p><p><br/>
+<b>After clickON</b><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p><br/>
+<b>After clickON</b><p><br/>
+<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p><br/>
+<b>After clickON</b><p><br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.home.test.pages.SearchPageTest@43262d8c</td></tr>
+</table><p>
+</body>
+</html>
