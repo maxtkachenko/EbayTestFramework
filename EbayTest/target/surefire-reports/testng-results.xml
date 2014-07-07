@@ -1,16 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="5" passed="4">
+<testng-results skipped="0" failed="0" total="15" passed="15">
   <reporter-output>
     <line>
       <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
     </line>
     <line>
-      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"class name","selector":"gh-ua"}
-Command duration or timeout: 11.05 seconds
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.07 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
 System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: 1eb17bd1-2ed9-4f92-af92-ea2d3455a1c8
+Session ID: 3395c391651817f15fe2f5ea40689165
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir9044_30513}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 3395c391651817f15fe2f5ea40689165
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir9044_30513}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 3395c391651817f15fe2f5ea40689165
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir9044_30513}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 3395c391651817f15fe2f5ea40689165
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir9044_30513}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("gh-ac"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-btn"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"class name","selector":"gh-ua"}
+Command duration or timeout: 10.74 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: c6f7bcdd-797d-459c-b19c-e8c133ea8cc0
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
     </line>
@@ -55,11 +193,11 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
     </line>
     <line>
       <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"xpath","selector":".//*[contains(@class,'gh-ug-guest')]/a"}
-Command duration or timeout: 11.20 seconds
+Command duration or timeout: 10.93 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
 System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: 1eb17bd1-2ed9-4f92-af92-ea2d3455a1c8
+Session ID: c6f7bcdd-797d-459c-b19c-e8c133ea8cc0
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
     </line>
@@ -80,11 +218,11 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
     </line>
     <line>
       <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"class name","selector":"gh-ua"}
-Command duration or timeout: 10.02 seconds
+Command duration or timeout: 13.27 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
 System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: 1eb17bd1-2ed9-4f92-af92-ea2d3455a1c8
+Session ID: c6f7bcdd-797d-459c-b19c-e8c133ea8cc0
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
     </line>
@@ -122,55 +260,195 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
       <![CDATA[<b>After clickON</b><p>]]>
     </line>
     <line>
-      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"id","selector":"inlinefeedbackinitquestion"}
-Command duration or timeout: 13.28 seconds
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.06 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
 System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: 1eb17bd1-2ed9-4f92-af92-ea2d3455a1c8
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
+Session ID: 20eccb5a2a0195d8a78b68da088b27b7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7088_26925}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 20eccb5a2a0195d8a78b68da088b27b7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7088_26925}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 20eccb5a2a0195d8a78b68da088b27b7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7088_26925}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 20eccb5a2a0195d8a78b68da088b27b7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7088_26925}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("gh-ac"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-btn"); Element html tag: input<p><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b>After clickON</b><p>]]>
     </line>
   </reporter-output>
-  <suite name="Testing on Mozilla Firefox" duration-ms="96187" started-at="2014-07-07T15:09:05Z" finished-at="2014-07-07T15:10:41Z">
+  <suite name="Testing on Mozilla Firefox" duration-ms="92128" started-at="2014-07-07T17:01:19Z" finished-at="2014-07-07T17:02:52Z">
     <groups>
       <group name="home">
-        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@4358be90]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
-        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@4358be90]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
+        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@231aaee1]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
+        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@231aaee1]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
       </group> <!-- home -->
       <group name="ebayAll">
-        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@4358be90]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
-        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@4358be90]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
-        <method signature="LoginPageTest.LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="LogOut" class="com.home.test.pages.LoginPageTest"/>
-        <method signature="LoginPageTest.testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="testLogin" class="com.home.test.pages.LoginPageTest"/>
-        <method signature="SearchPageTest.testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@bb02e3]" name="testSearch" class="com.home.test.pages.SearchPageTest"/>
+        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@231aaee1]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
+        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@231aaee1]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
+        <method signature="LoginPageTest.LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@186b282d]" name="LogOut" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="LoginPageTest.testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@186b282d]" name="testLogin" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="SearchPageTest.testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@7da3f9e4]" name="testSearch" class="com.home.test.pages.SearchPageTest"/>
       </group> <!-- ebayAll -->
       <group name="search">
-        <method signature="SearchPageTest.testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@bb02e3]" name="testSearch" class="com.home.test.pages.SearchPageTest"/>
+        <method signature="SearchPageTest.testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@7da3f9e4]" name="testSearch" class="com.home.test.pages.SearchPageTest"/>
       </group> <!-- search -->
       <group name="login">
-        <method signature="LoginPageTest.LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="LogOut" class="com.home.test.pages.LoginPageTest"/>
-        <method signature="LoginPageTest.testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="testLogin" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="LoginPageTest.LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@186b282d]" name="LogOut" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="LoginPageTest.testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@186b282d]" name="testLogin" class="com.home.test.pages.LoginPageTest"/>
       </group> <!-- login -->
     </groups>
-    <test name="tests on Mozilla Firefox" duration-ms="96187" started-at="2014-07-07T15:09:05Z" finished-at="2014-07-07T15:10:41Z">
+    <test name="tests on Mozilla Firefox" duration-ms="92128" started-at="2014-07-07T17:01:19Z" finished-at="2014-07-07T17:02:52Z">
       <class name="com.home.test.pages.HomePageTest">
-        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.HomePageTest@4358be90]" name="OpenPage" is-config="true" duration-ms="5865" started-at="2014-07-07T18:09:05Z" finished-at="2014-07-07T18:09:11Z">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.HomePageTest@231aaee1]" name="OpenPage" is-config="true" duration-ms="5653" started-at="2014-07-07T20:01:19Z" finished-at="2014-07-07T20:01:25Z">
           <reporter-output>
             <line>
               <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- OpenPage -->
-        <test-method status="PASS" signature="testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@4358be90]" name="testDeals" duration-ms="29085" started-at="2014-07-07T18:09:11Z" finished-at="2014-07-07T18:09:40Z">
+        <test-method status="PASS" signature="testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@231aaee1]" name="testDeals" duration-ms="31753" started-at="2014-07-07T20:01:25Z" finished-at="2014-07-07T20:01:57Z">
           <reporter-output>
             <line>
               <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"class name","selector":"gh-ua"}
-Command duration or timeout: 11.05 seconds
+Command duration or timeout: 10.74 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
 System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: 1eb17bd1-2ed9-4f92-af92-ea2d3455a1c8
+Session ID: c6f7bcdd-797d-459c-b19c-e8c133ea8cc0
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
             </line>
@@ -206,7 +484,11 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
             </line>
           </reporter-output>
         </test-method> <!-- testDeals -->
-        <test-method status="PASS" signature="testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@4358be90]" name="testNotifications" duration-ms="4122" started-at="2014-07-07T18:09:40Z" finished-at="2014-07-07T18:09:44Z">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.HomePageTest@231aaee1]" name="OpenPage" is-config="true" duration-ms="0" started-at="2014-07-07T20:01:57Z" finished-at="2014-07-07T20:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@231aaee1]" name="testNotifications" duration-ms="4001" started-at="2014-07-07T20:01:57Z" finished-at="2014-07-07T20:02:01Z">
           <reporter-output>
             <line>
               <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("subs-close"); Element html tag: a<p>X<p>]]>
@@ -216,76 +498,35 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
             </line>
           </reporter-output>
         </test-method> <!-- testNotifications -->
-        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.HomePageTest@4358be90]" name="OpenPage" is-config="true" duration-ms="0" started-at="2014-07-07T18:09:40Z" finished-at="2014-07-07T18:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenPage -->
       </class> <!-- com.home.test.pages.HomePageTest -->
       <class name="com.home.test.pages.SearchPageTest">
-        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.SearchPageTest@bb02e3]" name="OpenPage" is-config="true" duration-ms="1895" started-at="2014-07-07T18:10:04Z" finished-at="2014-07-07T18:10:06Z">
+        <test-method status="PASS" signature="getWebDriver(java.lang.String)[pri:0, instance:com.home.test.pages.SearchPageTest@7da3f9e4]" name="getWebDriver" is-config="true" duration-ms="15755" started-at="2014-07-07T20:01:04Z" finished-at="2014-07-07T20:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebDriver -->
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.SearchPageTest@7da3f9e4]" name="OpenPage" is-config="true" duration-ms="32" started-at="2014-07-07T20:02:20Z" finished-at="2014-07-07T20:02:20Z">
           <reporter-output>
             <line>
               <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- OpenPage -->
-        <test-method status="FAIL" signature="testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@bb02e3]" name="testSearch" duration-ms="34604" started-at="2014-07-07T18:10:06Z" finished-at="2014-07-07T18:10:41Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.home.test.pages.SearchPageTest.testSearch(SearchPageTest.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
-	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@7da3f9e4]" name="testSearch" duration-ms="31931" started-at="2014-07-07T20:02:20Z" finished-at="2014-07-07T20:02:52Z">
           <reporter-output>
             <line>
               <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"class name","selector":"gh-ua"}
-Command duration or timeout: 10.02 seconds
+Command duration or timeout: 13.27 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
 System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: 1eb17bd1-2ed9-4f92-af92-ea2d3455a1c8
+Session ID: c6f7bcdd-797d-459c-b19c-e8c133ea8cc0
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
             </line>
@@ -323,56 +564,51 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
               <![CDATA[<b>After clickON</b><p>]]>
             </line>
             <line>
-              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"id","selector":"inlinefeedbackinitquestion"}
-Command duration or timeout: 13.28 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
-System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: 1eb17bd1-2ed9-4f92-af92-ea2d3455a1c8
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSearch -->
-      </class> <!-- com.home.test.pages.SearchPageTest -->
-      <class name="com.home.test.pages.LoginPageTest">
-        <test-method status="PASS" signature="getWebDriver(java.lang.String)[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="getWebDriver" is-config="true" duration-ms="8514" started-at="2014-07-07T18:08:56Z" finished-at="2014-07-07T18:09:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="ShutDown()[pri:0, instance:com.home.test.pages.SearchPageTest@7da3f9e4]" name="ShutDown" is-config="true" duration-ms="4757" started-at="2014-07-07T20:02:52Z" finished-at="2014-07-07T20:02:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getWebDriver -->
-        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="OpenPage" is-config="true" duration-ms="1996" started-at="2014-07-07T18:09:44Z" finished-at="2014-07-07T18:09:46Z">
+        </test-method> <!-- ShutDown -->
+      </class> <!-- com.home.test.pages.SearchPageTest -->
+      <class name="com.home.test.pages.LoginPageTest">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.LoginPageTest@186b282d]" name="OpenPage" is-config="true" duration-ms="2988" started-at="2014-07-07T20:02:01Z" finished-at="2014-07-07T20:02:04Z">
           <reporter-output>
             <line>
               <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- OpenPage -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="testLogin" duration-ms="11206" started-at="2014-07-07T18:09:46Z" finished-at="2014-07-07T18:09:57Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@186b282d]" name="testLogin" duration-ms="10938" started-at="2014-07-07T20:02:04Z" finished-at="2014-07-07T20:02:15Z">
           <reporter-output>
             <line>
               <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspUnable to locate element: {"method":"xpath","selector":".//*[contains(@class,'gh-ug-guest')]/a"}
-Command duration or timeout: 11.20 seconds
+Command duration or timeout: 10.93 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
 System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: 1eb17bd1-2ed9-4f92-af92-ea2d3455a1c8
+Session ID: c6f7bcdd-797d-459c-b19c-e8c133ea8cc0
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]<p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="OpenPage" is-config="true" duration-ms="0" started-at="2014-07-07T18:09:57Z" finished-at="2014-07-07T18:09:57Z">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.LoginPageTest@186b282d]" name="OpenPage" is-config="true" duration-ms="1" started-at="2014-07-07T20:02:15Z" finished-at="2014-07-07T20:02:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenPage -->
-        <test-method status="PASS" signature="LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="LogOut" duration-ms="7393" started-at="2014-07-07T18:09:57Z" finished-at="2014-07-07T18:10:04Z">
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@186b282d]" name="LogOut" duration-ms="4827" started-at="2014-07-07T20:02:15Z" finished-at="2014-07-07T20:02:20Z">
           <reporter-output>
             <line>
               <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
@@ -388,14 +624,456 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
             </line>
           </reporter-output>
         </test-method> <!-- LogOut -->
-        <test-method status="PASS" signature="ShutDown()[pri:0, instance:com.home.test.pages.LoginPageTest@403d0d64]" name="ShutDown" is-config="true" duration-ms="3280" started-at="2014-07-07T18:10:41Z" finished-at="2014-07-07T18:10:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShutDown -->
       </class> <!-- com.home.test.pages.LoginPageTest -->
     </test> <!-- tests on Mozilla Firefox -->
   </suite> <!-- Testing on Mozilla Firefox -->
-  <suite name="Web Browsers" duration-ms="0" started-at="2014-07-07T15:10:45Z" finished-at="2014-07-07T15:10:45Z">
+  <suite name="Testing on Internet Explorer" duration-ms="92736" started-at="2014-07-07T16:59:29Z" finished-at="2014-07-07T17:01:02Z">
+    <groups>
+      <group name="home">
+        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@39dc25c9]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
+        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@39dc25c9]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
+      </group> <!-- home -->
+      <group name="ebayAll">
+        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@39dc25c9]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
+        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@39dc25c9]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
+        <method signature="LoginPageTest.LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@288fbf0e]" name="LogOut" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="LoginPageTest.testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@288fbf0e]" name="testLogin" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="SearchPageTest.testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@2eea6b13]" name="testSearch" class="com.home.test.pages.SearchPageTest"/>
+      </group> <!-- ebayAll -->
+      <group name="search">
+        <method signature="SearchPageTest.testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@2eea6b13]" name="testSearch" class="com.home.test.pages.SearchPageTest"/>
+      </group> <!-- search -->
+      <group name="login">
+        <method signature="LoginPageTest.LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@288fbf0e]" name="LogOut" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="LoginPageTest.testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@288fbf0e]" name="testLogin" class="com.home.test.pages.LoginPageTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="tests on Internet Explorer" duration-ms="92736" started-at="2014-07-07T16:59:29Z" finished-at="2014-07-07T17:01:02Z">
+      <class name="com.home.test.pages.HomePageTest">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.HomePageTest@39dc25c9]" name="OpenPage" is-config="true" duration-ms="5579" started-at="2014-07-07T19:59:29Z" finished-at="2014-07-07T19:59:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@39dc25c9]" name="testDeals" duration-ms="23936" started-at="2014-07-07T19:59:35Z" finished-at="2014-07-07T19:59:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 3395c391651817f15fe2f5ea40689165
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir9044_30513}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeals -->
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.HomePageTest@39dc25c9]" name="OpenPage" is-config="true" duration-ms="1" started-at="2014-07-07T19:59:59Z" finished-at="2014-07-07T19:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@39dc25c9]" name="testNotifications" duration-ms="14248" started-at="2014-07-07T19:59:59Z" finished-at="2014-07-07T20:00:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 3395c391651817f15fe2f5ea40689165
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir9044_30513}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNotifications -->
+      </class> <!-- com.home.test.pages.HomePageTest -->
+      <class name="com.home.test.pages.SearchPageTest">
+        <test-method status="PASS" signature="getWebDriver(java.lang.String)[pri:0, instance:com.home.test.pages.SearchPageTest@2eea6b13]" name="getWebDriver" is-config="true" duration-ms="4993" started-at="2014-07-07T19:59:24Z" finished-at="2014-07-07T19:59:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebDriver -->
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.SearchPageTest@2eea6b13]" name="OpenPage" is-config="true" duration-ms="4603" started-at="2014-07-07T20:00:30Z" finished-at="2014-07-07T20:00:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@2eea6b13]" name="testSearch" duration-ms="27592" started-at="2014-07-07T20:00:34Z" finished-at="2014-07-07T20:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 3395c391651817f15fe2f5ea40689165
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir9044_30513}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("gh-ac"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-btn"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="ShutDown()[pri:0, instance:com.home.test.pages.SearchPageTest@2eea6b13]" name="ShutDown" is-config="true" duration-ms="1453" started-at="2014-07-07T20:01:02Z" finished-at="2014-07-07T20:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDown -->
+      </class> <!-- com.home.test.pages.SearchPageTest -->
+      <class name="com.home.test.pages.LoginPageTest">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.LoginPageTest@288fbf0e]" name="OpenPage" is-config="true" duration-ms="3895" started-at="2014-07-07T20:00:13Z" finished-at="2014-07-07T20:00:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@288fbf0e]" name="testLogin" duration-ms="10052" started-at="2014-07-07T20:00:17Z" finished-at="2014-07-07T20:00:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 3395c391651817f15fe2f5ea40689165
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir9044_30513}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.LoginPageTest@288fbf0e]" name="OpenPage" is-config="true" duration-ms="0" started-at="2014-07-07T20:00:27Z" finished-at="2014-07-07T20:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@288fbf0e]" name="LogOut" duration-ms="2699" started-at="2014-07-07T20:00:27Z" finished-at="2014-07-07T20:00:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- com.home.test.pages.LoginPageTest -->
+    </test> <!-- tests on Internet Explorer -->
+  </suite> <!-- Testing on Internet Explorer -->
+  <suite name="Testing on Chrome" duration-ms="93791" started-at="2014-07-07T17:03:00Z" finished-at="2014-07-07T17:04:34Z">
+    <groups>
+      <group name="home">
+        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@379bc1bf]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
+        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@379bc1bf]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
+      </group> <!-- home -->
+      <group name="ebayAll">
+        <method signature="HomePageTest.testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@379bc1bf]" name="testDeals" class="com.home.test.pages.HomePageTest"/>
+        <method signature="HomePageTest.testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@379bc1bf]" name="testNotifications" class="com.home.test.pages.HomePageTest"/>
+        <method signature="LoginPageTest.LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@64e21817]" name="LogOut" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="LoginPageTest.testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@64e21817]" name="testLogin" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="SearchPageTest.testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@2330a31]" name="testSearch" class="com.home.test.pages.SearchPageTest"/>
+      </group> <!-- ebayAll -->
+      <group name="search">
+        <method signature="SearchPageTest.testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@2330a31]" name="testSearch" class="com.home.test.pages.SearchPageTest"/>
+      </group> <!-- search -->
+      <group name="login">
+        <method signature="LoginPageTest.LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@64e21817]" name="LogOut" class="com.home.test.pages.LoginPageTest"/>
+        <method signature="LoginPageTest.testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@64e21817]" name="testLogin" class="com.home.test.pages.LoginPageTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="tests on Google Chrome" duration-ms="93791" started-at="2014-07-07T17:03:00Z" finished-at="2014-07-07T17:04:34Z">
+      <class name="com.home.test.pages.HomePageTest">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.HomePageTest@379bc1bf]" name="OpenPage" is-config="true" duration-ms="6639" started-at="2014-07-07T20:03:00Z" finished-at="2014-07-07T20:03:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testDeals()[pri:0, instance:com.home.test.pages.HomePageTest@379bc1bf]" name="testDeals" duration-ms="23615" started-at="2014-07-07T20:03:07Z" finished-at="2014-07-07T20:03:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 20eccb5a2a0195d8a78b68da088b27b7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7088_26925}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeals -->
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.HomePageTest@379bc1bf]" name="OpenPage" is-config="true" duration-ms="1" started-at="2014-07-07T20:03:30Z" finished-at="2014-07-07T20:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testNotifications()[pri:0, instance:com.home.test.pages.HomePageTest@379bc1bf]" name="testNotifications" duration-ms="13027" started-at="2014-07-07T20:03:30Z" finished-at="2014-07-07T20:03:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 20eccb5a2a0195d8a78b68da088b27b7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7088_26925}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNotifications -->
+      </class> <!-- com.home.test.pages.HomePageTest -->
+      <class name="com.home.test.pages.SearchPageTest">
+        <test-method status="PASS" signature="getWebDriver(java.lang.String)[pri:0, instance:com.home.test.pages.SearchPageTest@2330a31]" name="getWebDriver" is-config="true" duration-ms="3492" started-at="2014-07-07T20:02:56Z" finished-at="2014-07-07T20:03:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebDriver -->
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.SearchPageTest@2330a31]" name="OpenPage" is-config="true" duration-ms="4572" started-at="2014-07-07T20:04:02Z" finished-at="2014-07-07T20:04:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:com.home.test.pages.SearchPageTest@2330a31]" name="testSearch" duration-ms="27356" started-at="2014-07-07T20:04:06Z" finished-at="2014-07-07T20:04:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 20eccb5a2a0195d8a78b68da088b27b7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7088_26925}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug")/a[1]; Element html tag: a<p>Sign in<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("userid"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("pass"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("sgnbt"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Change was performed on element with locator:</b>&nbspid("gh-ac"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-btn"); Element html tag: input<p><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="ShutDown()[pri:0, instance:com.home.test.pages.SearchPageTest@2330a31]" name="ShutDown" is-config="true" duration-ms="1685" started-at="2014-07-07T20:04:34Z" finished-at="2014-07-07T20:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDown -->
+      </class> <!-- com.home.test.pages.SearchPageTest -->
+      <class name="com.home.test.pages.LoginPageTest">
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.LoginPageTest@64e21817]" name="OpenPage" is-config="true" duration-ms="3118" started-at="2014-07-07T20:03:43Z" finished-at="2014-07-07T20:03:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Navigated to the url:</b>&nbsphttp://www.ebay.com/<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.home.test.pages.LoginPageTest@64e21817]" name="testLogin" duration-ms="10046" started-at="2014-07-07T20:03:46Z" finished-at="2014-07-07T20:03:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>WebDriver Exception throwed:</b>&nbspno such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'WIN-6TNKA2CT5MN', ip: '93.77.153.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 20eccb5a2a0195d8a78b68da088b27b7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\mahas\AppData\Local\Temp\scoped_dir7088_26925}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="OpenPage()[pri:0, instance:com.home.test.pages.LoginPageTest@64e21817]" name="OpenPage" is-config="true" duration-ms="0" started-at="2014-07-07T20:03:56Z" finished-at="2014-07-07T20:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenPage -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:com.home.test.pages.LoginPageTest@64e21817]" name="LogOut" duration-ms="5413" started-at="2014-07-07T20:03:56Z" finished-at="2014-07-07T20:04:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-ug"); Element html tag: a<p>Hi, Max!<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Was cliked on webelement with locator:</b>&nbspid("gh-uo")/a[1]; Element html tag: a<p>Sign out<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b>After clickON</b><p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- com.home.test.pages.LoginPageTest -->
+    </test> <!-- tests on Google Chrome -->
+  </suite> <!-- Testing on Chrome -->
+  <suite name="Web Browsers" duration-ms="0" started-at="2014-07-07T17:04:37Z" finished-at="2014-07-07T17:04:37Z">
     <groups>
     </groups>
   </suite> <!-- Web Browsers -->

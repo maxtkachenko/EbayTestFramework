@@ -70,8 +70,8 @@
                 <version>2.8.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <!--<suiteXmlFile>src\test\resources\browserstest.xml</suiteXmlFile>  -->
-                       <suiteXmlFile>src\test\resources\suitetest.xml</suiteXmlFile>
+                        <suiteXmlFile>src\test\resources\browserstest.xml</suiteXmlFile>
+                      <!-- <suiteXmlFile>src\test\resources\suitetest.xml</suiteXmlFile>  -->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

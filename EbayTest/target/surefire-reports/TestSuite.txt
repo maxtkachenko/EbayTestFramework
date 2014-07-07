@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 108.819 sec <<< FAILURE!
-testSearch(com.home.test.pages.SearchPageTest)  Time elapsed: 34.607 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.home.test.pages.SearchPageTest.testSearch(SearchPageTest.java:30)
-
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 314.109 sec

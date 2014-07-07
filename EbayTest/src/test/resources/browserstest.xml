@@ -4,13 +4,13 @@
 
 <suite-files>
    		<!-- Test Suite for IE browser-->
-		<!-- <suite-file path="./browsers-suite/IE.xml" />-->
+		<suite-file path="./browsers-suite/IE.xml" />
 		
 		<!-- Test Suite for Firefox Browser-->
 		<suite-file path="./browsers-suite/FirefoxTest.xml" />
 		
 		<!-- Test Suite for Chrome Browser-->
-		<!--<suite-file path="./browsers-suite/Chrome.xml" />-->
+		<suite-file path="./browsers-suite/Chrome.xml" />
 		
 </suite-files>
 </suite> 

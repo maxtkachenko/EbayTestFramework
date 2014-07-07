@@ -12,20 +12,20 @@
       </run>
     </groups>
     <classes>
-      <class name="com.home.test.pages.HomePageTest">
-        <methods>
-          <include name="getWebDriver"/>
-          <include name="testNotifications"/>
-          <include name="testDeals"/>
-          <include name="ShutDown"/>
-          <include name="OpenPage"/>
-        </methods>
-      </class> <!-- com.home.test.pages.HomePageTest -->
       <class name="com.home.test.pages.SearchPageTest">
         <methods>
+          <include name="getWebDriver"/>
+          <include name="ShutDown"/>
           <include name="testSearch"/>
         </methods>
       </class> <!-- com.home.test.pages.SearchPageTest -->
+      <class name="com.home.test.pages.HomePageTest">
+        <methods>
+          <include name="testNotifications"/>
+          <include name="testDeals"/>
+          <include name="OpenPage"/>
+        </methods>
+      </class> <!-- com.home.test.pages.HomePageTest -->
       <class name="com.home.test.pages.LoginPageTest">
         <methods>
           <include name="testLogin"/>

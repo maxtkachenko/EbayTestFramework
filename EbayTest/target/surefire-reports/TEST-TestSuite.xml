@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="1" time="108.819" errors="0" skipped="0" tests="5" name="TestSuite">
+<testsuite failures="0" time="314.104" errors="0" skipped="0" tests="15" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="C:\Users\mahas\git\EbayTestFramework\EbayTest"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\mahas\git\EbayTestFramework\EbayTest\target\surefire\surefirebooter2963857623687726402.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mahas\git\EbayTestFramework\EbayTest\target\surefire\surefirebooter3676382458076175608.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\mahas\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_51\jre"/>
-    <property name="sun.java.command" value="C:\Users\mahas\git\EbayTestFramework\EbayTest\target\surefire\surefirebooter2963857623687726402.jar C:\Users\mahas\git\EbayTestFramework\EbayTest\target\surefire\surefire4711694317784897251tmp C:\Users\mahas\git\EbayTestFramework\EbayTest\target\surefire\surefire6074511517268060763tmp"/>
+    <property name="sun.java.command" value="C:\Users\mahas\git\EbayTestFramework\EbayTest\target\surefire\surefirebooter3676382458076175608.jar C:\Users\mahas\git\EbayTestFramework\EbayTest\target\surefire\surefire7646859671779529428tmp C:\Users\mahas\git\EbayTestFramework\EbayTest\target\surefire\surefire4513857231956355702tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,6 +53,7 @@
     <property name="java.version" value="1.7.0_51"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes"/>
+    <property name="webdriver.chrome.driver" value="src/main/resources/drivers/chromedriver.exe"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="localRepository" value="C:\Users\mahas\.m2\repository"/>
     <property name="file.separator" value="\"/>
@@ -62,17 +63,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="29.084" classname="com.home.test.pages.HomePageTest" name="testDeals"/>
-  <testcase time="4.122" classname="com.home.test.pages.HomePageTest" name="testNotifications"/>
-  <testcase time="11.205" classname="com.home.test.pages.LoginPageTest" name="testLogin"/>
-  <testcase time="7.393" classname="com.home.test.pages.LoginPageTest" name="LogOut"/>
-  <testcase time="34.608" classname="com.home.test.pages.SearchPageTest" name="testSearch">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.home.test.pages.SearchPageTest.testSearch(SearchPageTest.java:30)
-</failure>
-  </testcase>
+  <testcase time="23.935" classname="com.home.test.pages.HomePageTest" name="testDeals"/>
+  <testcase time="14.248" classname="com.home.test.pages.HomePageTest" name="testNotifications"/>
+  <testcase time="10.052" classname="com.home.test.pages.LoginPageTest" name="testLogin"/>
+  <testcase time="2.699" classname="com.home.test.pages.LoginPageTest" name="LogOut"/>
+  <testcase time="27.592" classname="com.home.test.pages.SearchPageTest" name="testSearch"/>
+  <testcase time="31.753" classname="com.home.test.pages.HomePageTest" name="testDeals"/>
+  <testcase time="4.001" classname="com.home.test.pages.HomePageTest" name="testNotifications"/>
+  <testcase time="10.938" classname="com.home.test.pages.LoginPageTest" name="testLogin"/>
+  <testcase time="4.827" classname="com.home.test.pages.LoginPageTest" name="LogOut"/>
+  <testcase time="31.931" classname="com.home.test.pages.SearchPageTest" name="testSearch"/>
+  <testcase time="23.615" classname="com.home.test.pages.HomePageTest" name="testDeals"/>
+  <testcase time="13.027" classname="com.home.test.pages.HomePageTest" name="testNotifications"/>
+  <testcase time="10.046" classname="com.home.test.pages.LoginPageTest" name="testLogin"/>
+  <testcase time="5.413" classname="com.home.test.pages.LoginPageTest" name="LogOut"/>
+  <testcase time="27.356" classname="com.home.test.pages.SearchPageTest" name="testSearch"/>
 </testsuite>

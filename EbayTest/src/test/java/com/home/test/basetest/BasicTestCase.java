@@ -24,10 +24,10 @@ public class BasicTestCase  {
 	@BeforeSuite(alwaysRun = true)
 	@Parameters({"browser"})
 	protected WebDriver getWebDriver(String browser){//@Optional("firefox")
-		if(driver == null){
+		//if(driver == null){
 			driver= DriverFactory.getDriver(browser);//open browser
 			driver.manage().timeouts().implicitlyWait(Long.parseLong(ConfigProperties.getProperty("limit.wait")), TimeUnit.SECONDS);//how many second wait object
-		}
+		//}
 		return driver;
 	}
 	@BeforeMethod(alwaysRun = true)
@@ -44,5 +44,6 @@ public class BasicTestCase  {
 	@AfterSuite( alwaysRun = true)
 	public void ShutDown() throws Exception{
 		DriverFactory.killDriverInstance();
+		driver = null;
 	}
 }
